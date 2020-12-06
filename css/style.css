@@ -15,22 +15,32 @@ header {
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline-block;
 }    
+
+.inline 
+{list-style-type:none;
+    display: inline-block;
+}
+
+.inline li a {
+color: white
+
+}
 
 h1 {font-size: 20px;
     display: inline-block;
@@ -108,14 +118,6 @@ p {
 }
 
 .main-image {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
     max-height: 200px;
 }
 
